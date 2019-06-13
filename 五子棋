@@ -162,7 +162,9 @@ Start:
     {
         SetColor(15,0);
         gotoxy(6,N-2);
-        printf("五子棋實作");
+        printf("組長：林昱慶 組員：邱致惟、官元弘、徐福、盧冠諺、柯佐勳、呂思穎");
+        gotoxy(6,N-3);
+        printf("五子棋實作\n");
         SetColor(15,0);
         gotoxy(55,N);
         printf("第");nc(nt);printf("回合    ");
